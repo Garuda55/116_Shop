@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Product</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top py-1">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6 col-sm-4">
+                <div class="header-top-phone d-flex align-items-center h-100">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <a href="tel:+123456789" class="ms-2 f-color">123456789</a>
+                </div>
+              </div>
+              <div class="col-sm-4 d-none d-sm-block">
+                <ul class="social-icons d-flex justify-content-center">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-vk"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-sm-4">
+                <div class="d-flex justify-content-end">
+                  <div class="btn-group">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary btn-sm dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Авторизация
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li><a class="dropdown-item" href="login.html">Войти</a></li>
+                        <li><a class="dropdown-item" href="register.html">Зарегистрироваться</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-middle bg-white py-4">
+          <div class="container-fluid">
+            <div class="row align-item-center">
+              <div class="col-md-4 col-6">
+                <a href="index.html" class="header-logo h1">Modo</a>
+                <div class="underlogo">одежда & аксессуары</div>
+              </div>
+
+              <div class="col-md-4 cart-buttons text-end h4 order-md-2 col-6">
+                <a class="cat p-1 f-color" href="catalog.html">Каталог</a>
+                <a class="cat p-1 f-color" href="#">Акции</a>
+              </div>
+
+              <div class="col-md-4 order-md-1">
+                <form action="">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="s"
+                      placeholder="Найти товар"
+                      aria-label="Найти товар"
+                      aria-describedby="button-addon2"
+                    />
+                    <button
+                      class="btn btn-outline-secondary"
+                      type="button"
+                      id="button-search"
+                    >
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-bottom sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand f-color" href="#">Панель навигации</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Переключатель навигации"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="f-color nav-link active"
+                  aria-current="page"
+                  href="index2.html"
+                  >Главная</a
+                >
+
+                <a class="nav-link f-color" href="#">Рекомендуемые</a>
+                <a class="nav-link f-color" href="#">Цена</a>
+                <a class="nav-link f-color" href="#">Ещё что нибудь</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <main class="main">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <nav class="breadcrumbs">
+                <ul>
+                  <li><a href="index2.html">Home</a></li>
+                  <li><a href="catalog.html">Category</a></li>
+                  <li><span>Product name</span></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5 col-lg-4 mb-3">
+              <div class="bg-white h-100">
+                <div
+                  id="carouselExampleFade"
+                  class="carousel slide carousel-fade"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/0001.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/0002.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/0003.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Следующий</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-8 mb-3">
+              <div class="bg-white product-content p-3 h-100">
+                <h1 class="section-title h3"><span>Название товара</span></h1>
+                <div class="product-price">65$</div>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+                  accusantium vitae harum veniam culpa neque doloribus
+                  consectetur veritatis non. Quidem molestias rerum unde aut
+                  maxime. Quasi eum dolore voluptatem maiores.
+                </p>
+
+                <div class="row mt-3">
+                  <div class="col-lg-4 mb-2">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <i class="fa-regular fa-thumbs-up"></i> Гарантии
+                        </h5>
+                        <ul class="list-unstyled">
+                          <li>Гарантия качества</li>
+                          <li>Возврат в течении 14 дней</li>
+                          <li>Что то ещё</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 mb-2">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <i class="fa-solid fa-truck"></i> Доставка
+                        </h5>
+                        <ul class="list-unstyled">
+                          <li>Доставка по всей стране</li>
+                          <li>Доставка почтой</li>
+                          <li>Самовывоз</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 mb-2">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <i class="fa-regular fa-credit-card"></i> Оплата
+                        </h5>
+                        <ul class="list-unstyled">
+                          <li>Наличный расчёт</li>
+                          <li>Безналичный расчёт</li>
+                          <li>Бартер на картошку</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <div class="product-content-details bg-white p-4">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="description-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#description-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="description-tab-pane"
+                      aria-selected="true"
+                    >
+                      Описание
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="features-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#features-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="features-tab-pane"
+                      aria-selected="false"
+                    >
+                      Характеристики товара
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="video-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#video-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="video-tab-pane"
+                      aria-selected="false"
+                    >
+                      video
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="description-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="description-tab"
+                    tabindex="0"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem nihil eos quo iste pariatur tenetur, labore veniam
+                      necessitatibus eveniet ipsa delectus suscipit fugiat
+                      repellendus deleniti atque quia rerum odit laboriosam.
+                    </p>
+
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Error ea natus voluptatum molestiae rerum non hic, alias
+                      doloribus reprehenderit aliquam omnis iusto nemo beatae
+                      dicta veniam fugit molestias, quae velit!
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Aliquid adipisci error cumque. Consequatur voluptatem amet
+                      quo magnam eos explicabo voluptate, assumenda neque itaque
+                      quod qui quibusdam nihil perferendis asperiores accusamus?
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="features-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="features-tab"
+                    tabindex="0"
+                  >
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">№</th>
+                          <th scope="col">Цвет</th>
+                          <th scope="col">Размер</th>
+                          <th scope="col">Материал</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Yellow</td>
+                          <td>S</td>
+                          <td>Cotton</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>White</td>
+                          <td>M</td>
+                          <td>Cotton</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Brown</td>
+                          <td>L</td>
+                          <td>Cotton</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="video-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="video-tab"
+                    tabindex="0"
+                  >
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/J18Ak70-0z4?si=9LZ8vKa80MAu9D1Z"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <h4 class="title-info">Information</h4>
+              <ul class="list-unstyled">
+                <li><a href="">Home</a></li>
+                <li><a href="">Payment</a></li>
+                <li><a href="">Delivery</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-6">
+              <h4>Часы работы</h4>
+              <ul class="list-unstyled">
+                <li><a href="">Adress</a></li>
+                <li><a href="">mon - fr 9.00 - 21.00</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-6">
+              <h4>Контакты</h4>
+              <ul class="list-unstyled">
+                <li><a href="tel:123456789">123456789</a></li>
+                <li><a href="">Payment</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-6">
+              <h4>Мы в соцсетях</h4>
+              <ul class="footer-icons">
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-vk"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- <button id="top">
+        <i class="fa-solid fa-angles-up"></i>
+      </button> -->
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    ">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
